@@ -25,24 +25,27 @@ html {
     display: flex;
     gap: 25px;
     list-style-type: none;
-    margin-right: auto
+    margin-right: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
 
 }
+
+
 
 .nav2 {
     display: flex;
     align-items: baseline;
     gap: 20px;
     list-style-type: none;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .nav2__item--blue a {
     color: #0000ff;
 }
 
-.nav2__item--small {
-    font-size: 1rem;
-}
 
 .nav3 {
     display: flex;
@@ -58,7 +61,7 @@ html {
 }
 
 .nav3__item--active a{
-    color: #ff764d;
+    color: #fd5948;
 }
 
 .hero {
@@ -75,7 +78,7 @@ html {
 .hero__head {
     grid-area: 1/2/1/2;
     margin: auto;
-    color: #ff764d;
+    color: #fd5948;
     font-size: 6rem;
 }
 
