@@ -97,12 +97,15 @@ h2 a {
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
   
 .info1__para {
     align-self: center;
     width: 66%;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
   
 .image__block1 {
@@ -142,12 +145,15 @@ h2 a {
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
 
 .video1__para {
     align-self: center;
     width: 66%;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .video1 {
@@ -161,12 +167,15 @@ h2 a {
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
   
 .image2__para {
     align-self: center;
     width: 66%;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
   
 .image__block2 {
@@ -206,7 +215,7 @@ h2 a {
 
 .video__block2 {
     font-size: 1rem;
-    margin: 0 auto;
+    margin: 5rem auto;
     max-width: 84%;
     padding-bottom: 6rem;
     font-size: 0.8rem;
