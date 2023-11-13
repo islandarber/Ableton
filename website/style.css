@@ -140,12 +140,12 @@ h2 a {
     align-self: center;
     width: 66%;
     margin: 0 auto;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .video1 {
-    margin-top: 7rem;
-    align-self: center;
+    margin-top: 0;
+    margin-left: 15rem;
 }
   
 .image__h2 {
