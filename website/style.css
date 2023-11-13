@@ -161,7 +161,7 @@ h2 a {
     margin: 0 auto;
 }
   
-.image__block1 {
+.image__block2 {
     max-width: 84%;
     display: grid;
     background-color: #b6ffc0;
@@ -171,13 +171,13 @@ h2 a {
     margin-left: 0;
 }
 
-.image__block1__img1 {
+.image__block2__img1 {
     margin: 7rem;
     max-width: 33vw;
     max-height: 25vw;
 }
 
-.image__block1__img2 {
+.image__block2__img2 {
     margin: 0 auto;
     grid-row: 2/3;
     grid-column: 1/3;
@@ -185,7 +185,7 @@ h2 a {
     max-height: 25vw;
 }
 
-.image__block1__img3 {
+.image__block2__img3 {
     margin-top: 10rem;
     grid-row: 1/3;
     grid-column: 3/3;
