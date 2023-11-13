@@ -34,10 +34,10 @@ h2 a {
   gap: 8rem;
   background-color: #fbffa7;
   background-repeat: no-repeat;
-  background-position: right;
   margin-top: 4rem;
 }
 .image__block1__img1 {
+  margin-left: 0;
   margin-top: 10rem;
   max-width: 41vw;
   max-height: 41vw;
