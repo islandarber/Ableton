@@ -162,14 +162,17 @@ h2 a {
 }
 
 .video1 {
-    margin-top: 0;
-    margin-left: 15rem;
+    display: flex;
+margin: 0 auto;
+width: 66%;
 }
 
 .video__block1__figcation {
-  margin-left: 15rem;
-  padding-bottom: 3rem;
-  font-weight: 400;
+  display: flex;
+  margin: 0 auto;
+  width: 66%;
+  padding-left: 1rem;
+  font-weight: 600;
   font-size: small;
 }
   
