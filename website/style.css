@@ -303,10 +303,23 @@ margin: 10rem auto;
     color: #0000ff;
 }
 
-footer {
+/* footer */
+
+/* footer {
 	display:flex;
 	justify-content: space-between;
 	background-color: white;
 	padding: 10%;
     border-top: 2px solid #efefef;
+} */
+
+
+
+.info1 {
+	list-style-type: none;
+	padding: 0;
+}
+.info1 a{
+	color: black;
+	text-decoration: none;
 }
