@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+footer {
+	display:flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 10%;
+}
+
