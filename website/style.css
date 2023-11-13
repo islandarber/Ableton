@@ -28,13 +28,14 @@ h2 a {
 
 .image__block1 {
   max-width: 58vw;
-  height: 58vw;
+  max-height: 58vw;
   display: flex;
   justify-content: space-around;
   gap: 8rem;
   background-color: #fbffa7;
   background-repeat: no-repeat;
-  margin-top: 4rem;
+  margin-top: 2rem;
+  margin-left: 15rem;
 }
 .image__block1__img1 {
   margin-left: 0;
@@ -52,11 +53,11 @@ h2 a {
   align-self: center;
   line-height: 2rem;
   max-width: 66%;
-  margin: 4rem auto 2rem auto;
+  margin: 4rem 15rem;
 }
 .video1__para {
   align-self: center;
-  width: 66%;
+  width: 84%;
   margin: 0 auto;
 }
 .video1 {
