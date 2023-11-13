@@ -4,7 +4,80 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Jost', sans-serif;
+}
 
+.mainnav {
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.mainnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-right: auto
+
+}
+
+.nav2 {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav2__item--blue a {
+    color: #0000ff;
+}
+
+.nav2__item--small {
+    font-size: 1rem;
+}
+
+.nav3 {
+    display: flex;
+    list-style-type: none;
+    padding: 1rem 2rem;
+    gap: 20px;
+
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav3__item--active a{
+    color: #ff764d;
+}
+
+.hero {
+    display: grid;
+
+}
+.hero__img {
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: 1/2/1/2;
+}
+
+.hero__head {
+    grid-area: 1/2/1/2;
+    margin: auto;
+    color: #ff764d;
+    font-size: 6rem;
+}
 
 footer {
 	display:flex;
