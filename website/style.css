@@ -78,3 +78,11 @@ html {
     color: #ff764d;
     font-size: 6rem;
 }
+
+footer {
+	display:flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 10%;
+}
+
