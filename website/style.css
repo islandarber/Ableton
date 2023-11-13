@@ -141,6 +141,9 @@ main {
     z-index: 2;
     margin-right: -10vw;
 }
+.video__block2__p {
+    margin-bottom: 3rem;
+}
 
 .info__block2 {
 max-width: 84vw;
