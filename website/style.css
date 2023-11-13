@@ -147,6 +147,13 @@ h2 a {
     margin-top: 0;
     margin-left: 15rem;
 }
+
+.video__block1__figcation {
+  margin-left: 15rem;
+  padding-bottom: 3rem;
+  font-weight: 400;
+  font-size: small;
+}
   
 .image__h2 {
     align-self: center;
