@@ -5,8 +5,9 @@
 }
 
 html {
-    font-family: sans-serif
+    font-family: 'Jost', sans-serif;
 }
+
 .mainnav {
     display: flex;
     width: 100%;
