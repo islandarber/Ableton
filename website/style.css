@@ -25,24 +25,27 @@ html {
     display: flex;
     gap: 25px;
     list-style-type: none;
-    margin-right: auto
+    margin-right: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
 
 }
+
+
 
 .nav2 {
     display: flex;
     align-items: baseline;
     gap: 20px;
     list-style-type: none;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .nav2__item--blue a {
     color: #0000ff;
 }
 
-.nav2__item--small {
-    font-size: 1rem;
-}
 
 .nav3 {
     display: flex;
@@ -58,7 +61,7 @@ html {
 }
 
 .nav3__item--active a{
-    color: #ff764d;
+    color: #fd5948;
 }
 
 .hero {
@@ -75,7 +78,7 @@ html {
 .hero__head {
     grid-area: 1/2/1/2;
     margin: auto;
-    color: #ff764d;
+    color: #fd5948;
     font-size: 6rem;
 }
 
@@ -97,43 +100,55 @@ h2 a {
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
   
 .info1__para {
     align-self: center;
     width: 66%;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
   
 .image__block1 {
-    max-width: 58vw;
+    margin: 0 auto;
+    max-width: 84%;
     height: 58vw;
     display: flex;
-    justify-content: space-around;
-    gap: 8rem;
-    background-color: #fbffa7;
-    background-repeat: no-repeat;
-    background-position: right;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
     margin-top: 4rem;
 }
 
 .image__block1__img1 {
-    margin-top: 10rem;
     max-width: 41vw;
     max-height: 41vw;
+    z-index: 2;
 }
   
 .image__block1__img2 {
-    margin-top: 17rem;
     max-width: 33vw;
     max-height: 25vw;
+    z-index: 2;
 }
-  
+
+.yellow {
+  background-color: #FBFFA7;
+  width:80vw;
+  height: 58.33333vw;
+  margin-left: 25rem;
+  position: absolute;
+  z-index: 1;
+}
+
 .video1__h2 {
     align-self: center;
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
 
 .video1__para {
@@ -141,6 +156,9 @@ h2 a {
     width: 66%;
     margin: 0 auto;
     margin-bottom: 5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+
 }
 
 .video1 {
@@ -160,12 +178,15 @@ h2 a {
     line-height: 2rem;
     max-width: 66%;
     margin: 4rem auto 2rem auto;
+    font-size: 1.2rem;
 }
   
 .image2__para {
     align-self: center;
     width: 66%;
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
   
 .image__block2 {
@@ -209,7 +230,7 @@ h2 a {
 
 .video__block2 {
     font-size: 1rem;
-    margin: 7rem auto;
+    margin: 5rem auto;
     max-width: 84%;
     padding-bottom: 6rem;
     font-size: 0.8rem;
@@ -294,10 +315,23 @@ margin: 10rem auto;
     color: #0000ff;
 }
 
-footer {
+/* footer */
+
+/* footer {
 	display:flex;
 	justify-content: space-between;
 	background-color: white;
 	padding: 10%;
     border-top: 2px solid #efefef;
+} */
+
+
+
+.info1 {
+	list-style-type: none;
+	padding: 0;
+}
+.info1 a{
+	color: black;
+	text-decoration: none;
 }
