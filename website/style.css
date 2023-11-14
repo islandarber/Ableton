@@ -327,18 +327,15 @@ footer {
     border-top: 2px solid #efefef;
 }
 
-
-
-
 .footer__head {
     margin: 0 auto;
     color: black;
     font-size: 3.5rem;
-    padding: 9rem;
+    padding left: 9rem;
 }
 
-column {
-    list-style-type: none;
+.footer__block1 {
+    padding-left: 9rem;
 }
 
 .info1 {
