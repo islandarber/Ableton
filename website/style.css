@@ -319,21 +319,34 @@ margin: 10rem auto;
 
 /* footer */
 
-/* footer {
+footer {
 	display:flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	background-color: white;
-	padding: 10%;
+	/* padding: 10%; */
     border-top: 2px solid #efefef;
-} */
+}
 
 
+
+
+.footer__head {
+    margin: 0 auto;
+    color: black;
+    font-size: 3.5rem;
+    padding: 9rem;
+}
+
+column {
+    list-style-type: none;
+}
 
 .info1 {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
+
 .info1 a{
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
